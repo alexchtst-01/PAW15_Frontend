@@ -7,8 +7,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const initialState = {
-  isAuthenticated: false,
-  loading: false,
+  isAuthenticated: true,
+  loading: true,
   payload: null,
   error: null,
 };
